@@ -1,0 +1,42 @@
+{
+  "plants": [
+    {
+      "id": "1",
+      "commonName": "Monstera Deliciosa",
+      "scientificName": "Monstera Deliciosa",
+      "type": "Bush"
+    },
+    {
+      "id": "2",
+      "commonName": "Aloe Vera",
+      "scientificName": "Aloe Vera",
+      "type": "Bush"
+    },
+    {
+      "id": "3",
+      "commonName": "Bougainvillea",
+      "scientificName": "Bougainvillea",
+      "type": "Bush"
+    },
+    {
+      "commonName": "Orchid",
+      "scientificName": "Orchidaceae",
+      "type": "bush",
+      "id": "gXBVjiu"
+    }
+  ],
+  "treatments": [
+    {
+      "id": "A",
+      "plantId": "1",
+      "treatmentType": "Prunning",
+      "timeOfYear": "Spring or end of summer"
+    },
+    {
+      "id": "B",
+      "plantId": "3",
+      "treatmentType": "Fertilization with K (potassium) and P (phosphorus)",
+      "timeOfYear": "Spring or end of summer"
+    }
+  ]
+}

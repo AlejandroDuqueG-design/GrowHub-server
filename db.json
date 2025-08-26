@@ -28,10 +28,10 @@
       "description": "Woody vine or shrub known for its vibrant, colorful bracts that surround its small, true flowers."
     },
     {
+      "id": "4",
       "commonName": "Orchid",
       "scientificName": "Orchidaceae",
       "type": "Herbaceous Shrub",
-      "id": "5",
       "watering": "Once per week",
       "sunlight": "Indirect sunlight",
       "description": "Perennial Herb, Found on every continent except Antarctica." 

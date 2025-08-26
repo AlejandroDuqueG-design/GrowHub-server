@@ -4,25 +4,56 @@
       "id": "1",
       "commonName": "Monstera Deliciosa",
       "scientificName": "Monstera Deliciosa",
-      "type": "Bush"
+      "type": "Herbaceous Perennial",
+      "watering": "Once a week, allow soil to dry",
+      "sunlight": "Bright, indirect light",
+      "description": "A tropical plant with large, split leaves, commonly used as indoor decoration."
     },
     {
       "id": "2",
       "commonName": "Aloe Vera",
       "scientificName": "Aloe Vera",
-      "type": "Bush"
+      "type": "Succulent",
+      "watering": "Every 2-3 weeks, allow soil to dry completely",
+      "sunlight": "Direct sunlight",
+      "description": "Succulent plant known for its medicinal gel used for skin care and burns."
     },
     {
       "id": "3",
       "commonName": "Bougainvillea",
       "scientificName": "Bougainvillea",
-      "type": "Bush"
+      "type": "shrub",
+      "watering": "One or two times per week, allow soil to dry",
+      "sunlight": "Direct sunlight",
+      "description": "Woody vine or shrub known for its vibrant, colorful bracts that surround its small, true flowers."
     },
     {
       "commonName": "Orchid",
       "scientificName": "Orchidaceae",
-      "type": "bush",
-      "id": "gXBVjiu"
+      "type": "Herbaceous Shrub",
+      "id": "5",
+      "watering": "Once per week",
+      "sunlight": "Indirect sunlight",
+      "description": "Perennial Herb, Found on every continent except Antarctica." 
+    },
+    {
+      "id": "5",
+      "commonName": "Rosemary",
+      "scientificName": "Rosmarinus",
+      "type": "Bush",
+      "watering": "Every 1 to 2 weeks, when soil looks dry",
+      "sunlight": "Direct sunlight",
+      "description": "Is a shrub with fragrant, evergreen, needle-like leaves and white, pink, purple, or blue flowers."
+    },
+
+    {
+      "id": "6",
+      "commonName": "Bird of paradise",
+      "scientificName": "Strelitzia",
+      "type": "Herbaceous Perennial",
+      "watering": "Once a week or every 10 days",
+      "sunlight": "Direct sunlight",
+      "description": "Considered perennial shrubs or herbaceous perennials, depends on the species."
     }
   ],
   "treatments": [
@@ -37,6 +68,14 @@
       "plantId": "3",
       "treatmentType": "Fertilization with K (potassium) and P (phosphorus)",
       "timeOfYear": "Spring or end of summer"
+    },
+
+    {
+      "id":"C",
+      "plantId":"5",
+      "treatmentType": "Fertilization with universal substrate enriched with organic matter and perlite, also transplantation.",
+      "timeOfYear": "Spring"                
+
     }
   ]
 }

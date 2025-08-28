@@ -2,12 +2,12 @@
   "plants": [
     {
       "id": "1",
-      "commonName": "Monstera Deliciosa",
-      "scientificName": "Monstera Deliciosa",
-      "type": "Herbaceous Perennial",
-      "watering": "Once a week, allow soil to dry",
-      "sunlight": "Bright, indirect light",
-      "description": "A tropical plant with large, split leaves, commonly used as indoor decoration."
+      "commonName": "Rose",
+      "scientificName": "Genus Rosa / Rosaceae",
+      "type": "Shrubs",
+      "watering": "Newly planted roses should be watered every 3-4 days, while established roses can be watered once a week.",
+      "sunlight": "Direct sunlight",
+      "description": "Woody perennial flowering plants belonging to the genus Rosa in the family Rosaceae. There are over 300 wild species of roses, with tens of thousands of different cultivated varieties (cultivars) grown worldwide for their beautiful, often fragrant flowers. These plants can take the form of erect shrubs, climbing plants, or trailing plants, and their stems are frequently covered in sharp prickles. "
     },
     {
       "id": "2",
@@ -22,7 +22,7 @@
       "id": "3",
       "commonName": "Bougainvillea",
       "scientificName": "Bougainvillea",
-      "type": "shrub",
+      "type": "Shrub",
       "watering": "One or two times per week, allow soil to dry",
       "sunlight": "Direct sunlight",
       "description": "Woody vine or shrub known for its vibrant, colorful bracts that surround its small, true flowers."
@@ -34,7 +34,7 @@
       "type": "Herbaceous Shrub",
       "watering": "Once per week",
       "sunlight": "Indirect sunlight",
-      "description": "Perennial Herb, Found on every continent except Antarctica." 
+      "description": "Perennial Herb, Found on every continent except Antarctica."
     },
     {
       "id": "5",
@@ -45,7 +45,6 @@
       "sunlight": "Direct sunlight",
       "description": "Is a shrub with fragrant, evergreen, needle-like leaves and white, pink, purple, or blue flowers."
     },
-
     {
       "id": "6",
       "commonName": "Bird of paradise",
@@ -54,28 +53,71 @@
       "watering": "Once a week or every 10 days",
       "sunlight": "Direct sunlight",
       "description": "Considered perennial shrubs or herbaceous perennials, depends on the species."
+    },
+    {
+      "commonName": "Hortensia",
+      "scientificName": "Hydrangea",
+      "type": "Shrub",
+      "watering": "Once or twice a week, in the morning, let soil dry between waterings",
+      "sunlight": "Indirect sunlight, partial shade, morning sun, afternoon shade",
+      "description": "Is a deciduous shrub native to East Asia, especially Japan. It is known for its large, long-blooming summer flowers, which grow in rounded \"mophead\" or flattened \"lacecap\" clusters.",
+      "id": "gnjnI8J"
+    },
+    {
+      "commonName": "Magnolia",
+      "scientificName": "Magnoliaceae",
+      "type": "Tree",
+      "watering": "For new Magnolia trees, twice a week for the first few years, ensuring the soil remains moist.",
+      "sunlight": "Full sun to partial shade, at least 6 to 8 hours of direct sunlight daily",
+      "description": "Magnolias are spreading evergreen or deciduous trees or shrubs characterised by large fragrant flowers, which may be bowl-shaped or star-shaped, in shades of white, pink, purple, green, or yellow.",
+      "id": "aoJk_Da"
+    },
+    {
+      "commonName": "Monstera ",
+      "scientificName": "Monstera Deliciosa",
+      "type": "Climber",
+      "watering": "Water once a week, keep soil slightly moist but not soggy",
+      "sunlight": "Indirect bright light",
+      "description": "Tropical plant with large, glossy leaves featuring characteristic natural holes, also known as the Swiss Cheese Plant.",
+      "id": "pm4AFtv"
     }
   ],
   "treatments": [
     {
       "id": "A",
-      "plantId": "1",
-      "treatmentType": "Prunning",
+      "plantType": "Cactus",
+      "treatmentDescription": "Fertilization with K (potassium) and P (phosphorus) during their active growing season in spring and summer The best time to fertilize is when the plant shows signs of active growth, like forming new buds, but avoid fertilizing during winter dormancy.",
       "timeOfYear": "Spring or end of summer"
     },
     {
       "id": "B",
-      "plantId": "3",
-      "treatmentType": "Fertilization with K (potassium) and P (phosphorus)",
-      "timeOfYear": "Spring or end of summer"
+      "plantType": "Herbaceous Perennial",
+      "treatmentDescription": "For herbaceous plants, apply a balanced or low-nitrogen fertilizer, such as a granular type, in early spring for annuals and when plants emerge from dormancy for perennials, or use compost as a natural slow-release option. Water immediately after application to avoid burning and promote absorption.",
+      "timeOfYear": "Early Spring"
     },
-
     {
-      "id":"C",
-      "plantId":"5",
-      "treatmentType": "Fertilization with universal substrate enriched with organic matter and perlite, also transplantation.",
-      "timeOfYear": "Spring"                
-
+      "id": "C",
+      "plantType": "Succulent",
+      "treatmentDescription": "Protection from extreme temperatures during the active growing season (spring and summer), fertilize with a diluted, balanced liquid fertilizer. Ensure containers have drainage holes to prevent root rot from overwatering. ",
+      "timeOfYear": "Spring and early summer"
+    },
+    {
+      "id": "D",
+      "plantType": "Shrubs",
+      "treatmentDescription": "Consistent maintenance practices such as proper watering, regular pruning, and applying mulch to retain soil moisture and suppress weeds. You should also monitor for pests and diseases, applying pesticides or fungicides if necessary, and provide nutrients through balanced fertilizers or soil amendments to support plant health.",
+      "timeOfYear": "Early spring or late fall"
+    },
+     {
+      "id": "E",
+      "plantType": "Climbers",
+      "treatmentDescription": "Organic option like well-rotted manure or compost, applied annually in early spring and potentially again in fall to encourage robust growth and abundant blooms, not excessive foliage. When applying, scatter the fertilizer around the plant's base, gently incorporating it into the soil, or create a small trench for organic materials.",
+      "timeOfYear": "Early spring and again after each flush of flowers, until late summer"
+    },
+    {
+      "id": "F",
+      "plantType": "Herbaceous Shurbs",
+      "treatmentDescription": "Organic option like well-rotted manure or compost, applied annually in early spring and potentially again in fall to encourage robust growth and abundant blooms, not excessive foliage. When applying, scatter the fertilizer around the plant's base, gently incorporating it into the soil, or create a small trench for organic materials.",
+      "timeOfYear": "Early to mid-spring, or late fall after first frost"
     }
   ]
 }

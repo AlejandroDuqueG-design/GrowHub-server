@@ -55,6 +55,15 @@
       "description": "Considered perennial shrubs or herbaceous perennials, depends on the species."
     },
     {
+      "id": "7",
+      "commonName": "Star Cactus",
+      "scientificName": "Astrophytum Asterias",
+      "type": "Cactus",
+      "watering": "Water your cactus every 2-4 weeks during the growing season. In the fall and winter, when the cactus is dormant, reduce watering to once every 4-6 weeks.",
+      "sunlight": "Indirect sunlight, sudden exposure to direct sun can cause sunburn, leading to infection and death",
+      "description": "Cacti are a family of flowering, succulent plants, primarily native to the Americas, known for their water-storing stems, areoles (specialized buds that produce spines, flowers, and branches), and the absence of true leaves, which are typically modified into protective spines or hairs to reduce water loss"
+    },
+    {
       "commonName": "Hortensia",
       "scientificName": "Hydrangea",
       "type": "Shrub",
@@ -85,39 +94,53 @@
   "treatments": [
     {
       "id": "A",
-      "plantType": "Cactus",
+      "plantId": "7",
       "treatmentDescription": "Fertilization with K (potassium) and P (phosphorus) during their active growing season in spring and summer The best time to fertilize is when the plant shows signs of active growth, like forming new buds, but avoid fertilizing during winter dormancy.",
       "timeOfYear": "Spring or end of summer"
     },
     {
       "id": "B",
-      "plantType": "Herbaceous Perennial",
+      "plantId": "6",
       "treatmentDescription": "For herbaceous plants, apply a balanced or low-nitrogen fertilizer, such as a granular type, in early spring for annuals and when plants emerge from dormancy for perennials, or use compost as a natural slow-release option. Water immediately after application to avoid burning and promote absorption.",
       "timeOfYear": "Early Spring"
     },
     {
       "id": "C",
-      "plantType": "Succulent",
+      "plantId": "2",
       "treatmentDescription": "Protection from extreme temperatures during the active growing season (spring and summer), fertilize with a diluted, balanced liquid fertilizer. Ensure containers have drainage holes to prevent root rot from overwatering. ",
       "timeOfYear": "Spring and early summer"
     },
     {
       "id": "D",
-      "plantType": "Shrubs",
+      "plantId": "1", 
       "treatmentDescription": "Consistent maintenance practices such as proper watering, regular pruning, and applying mulch to retain soil moisture and suppress weeds. You should also monitor for pests and diseases, applying pesticides or fungicides if necessary, and provide nutrients through balanced fertilizers or soil amendments to support plant health.",
       "timeOfYear": "Early spring or late fall"
     },
      {
       "id": "E",
-      "plantType": "Climbers",
+      "plantId": "pm4AFtv",
       "treatmentDescription": "Organic option like well-rotted manure or compost, applied annually in early spring and potentially again in fall to encourage robust growth and abundant blooms, not excessive foliage. When applying, scatter the fertilizer around the plant's base, gently incorporating it into the soil, or create a small trench for organic materials.",
       "timeOfYear": "Early spring and again after each flush of flowers, until late summer"
     },
     {
       "id": "F",
-      "plantType": "Herbaceous Shurbs",
+      "plantId": "4",
       "treatmentDescription": "Organic option like well-rotted manure or compost, applied annually in early spring and potentially again in fall to encourage robust growth and abundant blooms, not excessive foliage. When applying, scatter the fertilizer around the plant's base, gently incorporating it into the soil, or create a small trench for organic materials.",
       "timeOfYear": "Early to mid-spring, or late fall after first frost"
+    },
+
+    {
+      "id": "G",
+      "plantId": "3", 
+      "treatmentDescription": "Consistent maintenance practices such as proper watering, regular pruning, and applying mulch to retain soil moisture and suppress weeds. You should also monitor for pests and diseases, applying pesticides or fungicides if necessary, and provide nutrients through balanced fertilizers or soil amendments to support plant health.",
+      "timeOfYear": "Early spring or late fall"
+    },
+
+    {
+      "id": "H",
+      "plantId": "gnjnI8J", 
+      "treatmentDescription": "Consistent maintenance practices such as proper watering, regular pruning, and applying mulch to retain soil moisture and suppress weeds. You should also monitor for pests and diseases, applying pesticides or fungicides if necessary, and provide nutrients through balanced fertilizers or soil amendments to support plant health.",
+      "timeOfYear": "Early spring or late fall"
     }
   ]
 }

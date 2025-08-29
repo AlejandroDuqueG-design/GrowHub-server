@@ -89,15 +89,6 @@
       "sunlight": "Indirect bright light",
       "description": "Tropical plant with large, glossy leaves featuring characteristic natural holes, also known as the Swiss Cheese Plant.",
       "id": "pm4AFtv"
-    },
-    {
-      "commonName": "",
-      "scientificName": "",
-      "type": "",
-      "watering": "",
-      "sunlight": "",
-      "description": "",
-      "id": "jX0Y-r1"
     }
   ],
   "treatments": [
@@ -154,6 +145,16 @@
       "plantId": "gnjnI8J",
       "treatmentDescription": "Apply a slow-release, balanced fertilizer or organic compost in early spring before new growth appears, spreading it out to the drip line. You can also fertilize with liquid options up to three times during the growing season. Always water thoroughly after fertilizing, and be mindful of the tree's sensitive roots by avoiding unnecessary fertilization unless the tree shows weak growth.",
       "timeOfYear": "Early spring or late fall"
+    },
+    {
+      "treatmentDescription": "watering frequently",
+      "timeOfYear": "summer",
+      "id": "Ww2x-4b"
+    },
+    {
+      "treatmentDescription": "",
+      "timeOfYear": "",
+      "id": "2G5Lbxk"
     }
   ]
 }
